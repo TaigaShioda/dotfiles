@@ -4,6 +4,10 @@ export XDG_CONFIG_HOME=$HOME/dotfiles
 alias vim='nvim'
 alias vi='nvim'
 
+alias la='ls -a'
+
+alias j='jupyter notebook'
+
 # 色を使用出来るようにする
 autoload -Uz colors
 autoload -U promptinit

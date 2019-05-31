@@ -41,3 +41,4 @@ set splitright         "画面を縦分割する際に右に開く
 set clipboard=unnamed  "yank した文字列をクリップボードにコピー
 set hls                "検索した文字をハイライトする
 
+inoremap <silent> jj <ESC>  "jjでinsert mode脱出
