@@ -88,3 +88,13 @@ if [[ -z "${TMUX}" ]]; then
 else
     export DISPLAY=$(cat ~/.display.txt)
 fi
+
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export CUDA_HOME=/usr/local/cuda
+
+export LD_LIBRARY_PATH=~/.cudnn/active/cuda/lib64:$LD_LIBRARY_PATH
+export CPATH=~/.cudnn/active/cuda/include:$CPATH
+export LIBRARY_PATH=~/.cudnn/active/cuda/lib64:$LIBRARY_PATH
+export CUPY_CACHE_DIR=/data/$USER/cupy
+export CUDA_CACHE_PATH=/data/$USER/nv

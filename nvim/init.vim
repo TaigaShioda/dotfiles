@@ -42,3 +42,14 @@ set clipboard=unnamed  "yank した文字列をクリップボードにコピー
 set hls                "検索した文字をハイライトする
 
 inoremap <silent> jj <ESC>  "jjでinsert mode脱出
+inoremap <silent> kk <ESC>  "kkでinsert mode脱出
+
+colorscheme molokai
+
+syntax on
+" 256色
+set t_Co=256
+" truecolor
+set termguicolors
+" 背景色
+set background=dark
